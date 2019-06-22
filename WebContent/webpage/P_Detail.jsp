@@ -82,8 +82,11 @@
 						<td><img src=<%=src %>></td>
 						<td class="detail"><%=request.getParameter("name") %><hr> <br>
 						<%=str %><br>
-							<%=price %>원 <br><br><a href="insertShopcartItem.jsp"
-							style="text-decoration: none; color: black;"><input type="submit" value="장바구니에 넣기"></a>
+							<%=price %>원 <br><br>
+							
+							<a href="insertShopcartItem.jsp" style="text-decoration: none; color: black;">
+							<input type="button" value="장바구니에 넣기"></a>
+							</form>
 						</td>
 						<% session.setAttribute("name", request.getParameter("name")); %>
 						<% session.setAttribute("price", price); %>

@@ -12,6 +12,8 @@
 	int num = 1;
 	int Price=Integer.parseInt(String.valueOf(session.getAttribute("price")));
 	String UID = String.valueOf(session.getAttribute("id"));
+	session.removeAttribute("name");
+	session.removeAttribute("price");
 %>
 
 <%
@@ -54,11 +56,7 @@
 	}
 
 %>
-<h2>입력된 아이디<%=UID %></h2><br>
-<h2>추가된 아이템은<%=name %></h2><br>
-<h2>갯수는<%=num %></h2><br>
-<h2>가격은 <%=Price %></h2>
 
-<a href="shopcart.jsp">shopcart로 이동하기</a>
+<jsp:forward page="shopcart.jsp"></jsp:forward>
 
-<!--<jsp:forward page="login.jsp"></jsp:forward>-->
+

@@ -91,7 +91,7 @@ $(document).ready(function(){
 	</header>
 	<%@ include file="menubar.html"%><!-- menubar.html 불러와서 사용(전 페이지 공통) -->
 
-	<form class="cartTable">
+	<form class="cartTable" action ="deleteshopcartItem.jsp">
 		<center>
 			<table border="1" name = "carttbl">
 				<caption>Shopping Cart</caption>
@@ -115,24 +115,17 @@ $(document).ready(function(){
 					System.out.println("P_Price : " + P_price);
 					%>
 					<tr class="item"+i>
-						<td><%=P_name %></td>
+						<td><input type="checkbox" name="name" value=<%=P_name %>><%=P_name %></td>
 						<td><%=P_price %></td>
 						<td><%=P_num %></td>
 						<td><%=Integer.parseInt(P_price)*Integer.parseInt(P_num) %></td>
-						<td><button class="delBtn" onclick="button1_click();">삭제</button></td>
 					</tr>
 					<%
 				}
 			%>
 			</table>
-			<input type="submit" id="" value="주문">
+			<input type="button" id="" value="삭제"><input type="submit" id="" value="주문">
 			
-			<script>
-				function button1_click() {
-					alert("페이지 이동");
-					location.href="deleteshopcartItem.jsp";
-				}
-			</script>
 			
 		</center>
 	</form>

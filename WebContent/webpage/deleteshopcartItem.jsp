@@ -8,11 +8,10 @@
 %>
 
 <%
-	String name = String.valueOf(session.getAttribute("name"));
+
+	String value[] = request.getParameterValues("name");
+
+for(String val : value){
+	out.println(val+"<br>");
+}
 %>
-
-
-<h2>
-<%=name %>
-</h2>
-

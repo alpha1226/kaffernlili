@@ -22,14 +22,14 @@
 				<th>GIFT SET</th>
 			</tr>
 			<tr>
-				<th><a href=""><img src="../image/G/s1.png"></th>
-				<th><a href=""><img src="../image/G/s2.png"></th>
-				<th><a href=""><img src="../image/G/s3.png"></th>
+				<th><a href="P_Detail.jsp?name=오 로즈 듀오세트 EDT 30ml with 핸드크림"><img src="../image/G/s1.png"></th>
+				<th><a href="P_Detail.jsp?name=캔들 퍼드부아"><img src="../image/G/s2.png"></th>
+				<th><a href="P_Detail.jsp?name=리치버터"><img src="../image/G/s3.png"></th>
 			</tr>
 			<tr>
-				<td>Scented candle and interior scent set : pine tree of light<br>$144.00</td>
-				<td>L'Ombre dans 1'Eau/Baies treat cone<br>$45.00</td>
-				<td>Art du Soin treat cone<br>$45.00</td>
+				<td>오 로즈 듀오세트 EDT 30ml with 핸드크림<br>123200</td>
+				<td>캔들 퍼드부아<br>72160</td>
+				<td>리치버터<br>86240</td>
 			</tr>
 		</table>
 	</aside>

@@ -21,14 +21,14 @@
 				<th>CUSTOM CANDLE GIFT SET</th>
 			</tr>
 			<tr>
-				<th><a href=""><img src="../image/C/c1.jpg"></th>
-				<th><a href=""><img src="../image/C/c2.jpg"></th>
-				<th><a href=""><img src="../image/C/c3.jpg"></th>
+				<th><a href="P_Detail.jsp?name=캔들 제라늄로사"><img src="../image/C/c1.jpg"></th>
+				<th><a href="P_Detail.jsp?name=캔들 훼이으드라반드"><img src="../image/C/c2.jpg"></th>
+				<th><a href="P_Detail.jsp?name=캔들 유칼립투스"><img src="../image/C/c3.jpg"></th>
 			</tr>
 			<tr>
-				<td>Choisya/Orange Blossom<br>$35.00</td>
-				<td>Freesia<br>$35.00</td>
-				<td>Gardenia<br>$35.00</td>
+				<td>캔들 제라늄로사<br>72160</td>
+				<td>캔들 훼이으드라반드<br>72160</td>
+				<td>캔들 유칼립투스<br>72160</td>
 			</tr>
 		</table>
 	</aside>

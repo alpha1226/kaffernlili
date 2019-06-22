@@ -22,14 +22,14 @@
 				<th>EAUX DE PARFUM</th>
 			</tr>
 			<tr>
-				<th><a href=""><img src="../image/E/ep1.png"></th>
-				<th><a href=""><img src="../image/E/ep5.jpg"></th>
-				<th><a href=""><img src="../image/E/ep3.jpg"></th>
+				<th><a href="P_Detail.jsp?name=룸스프레이 존 갈리아노"><img src="../image/E/ep1.png"></th>
+				<th><a href="P_Detail.jsp?name=룸스프레이 미모사"><img src="../image/E/ep5.jpg"></th>
+				<th><a href="P_Detail.jsp?name=룸스프레이 튜베루즈"><img src="../image/E/ep3.jpg"></th>
 			</tr>
 			<tr>
-				<td>NEW: Kimonanthe Eau de Parfum<br>$240.00</td>
-				<td>NEW: Opone Eau de Parfum<br>$240.00</td>
-				<td>NEW: Eau Mage Eau de Parfum<br>$240.00</td>
+				<td>룸스프레이 존 갈리아노<br>￦72,160</td>
+				<td>룸스프레이 미모사<br>￦72,160</td>
+				<td>룸스프레이 튜베루즈<br>￦72,160</td>
 			</tr>
 		</table>
 	</aside>

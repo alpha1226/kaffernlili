@@ -21,14 +21,14 @@
 				<th>NEW ARRIVALS</th>
 			</tr>
 			<tr>
-				<th><a href=""><img src="../image/F/na1.png"></th>
-				<th><a href=""><img src="../image/F/na2.jpg"></th>
-				<th><a href=""><img src="../image/F/na3.jpg"></th>
+				<th><a href="P_Detail.jsp?name=오 드 뚜왈렛 디스커버리 세트"><img src="../image/F/na1.png"></th>
+				<th><a href="P_Detail.jsp?name=오 드 뚜왈렛 오 데 썽"><img src="../image/F/na2.jpg"></th>
+				<th><a href="P_Detail.jsp?name=벨벳 핸드로션"><img src="../image/F/na3.jpg"></th>
 			</tr>
 			<tr>
-				<td>Advent calendar<br>$425.00</td>
-				<td>NEW: Eau de Parfum 34<br>$190.00</td>
-				<td>New: Tempo Eau de parfum<br>$165.00</td>
+				<td>오 드 뚜뢀렛 디스커버리 세트<br>￦118,800</td>
+				<td>오 드 뚜왈렛 오 데 썽<br>￦154,000</td>
+				<td>벨벳 핸드로션<br>￦47,520</td>
 			</tr>
 		</table>
 	</aside>

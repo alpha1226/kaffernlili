@@ -22,14 +22,14 @@
 				<th>ALL FACE & BODY CARE</th>
 			</tr>
 			<tr>
-				<th><a href=""><img src="../image/A/bc1.jpg" width="200px" height="170px"></th>
-				<th><a href=""><img src="../image/A/bc3.jpg"></th>
-				<th><a href=""><img src="../image/A/bc4.jpg"></th>
+				<th><a href="P_Detail.jsp?name=샤워오일 도손"><img src="../image/A/bc1.jpg" width="200px" height="170px"></th>
+				<th><a href="P_Detail.jsp?name=샤워폼 오 로즈"><img src="../image/A/bc3.jpg"></th>
+				<th><a href="P_Detail.jsp?name=핸드크림 오 로즈"><img src="../image/A/bc4.jpg"></th>
 			</tr>
 			<tr>
-				<td>Do Son Shower Oil<br>$50.00</td>
-				<td>Do Son Body Mist<br>$55.00</td>
-				<td>Eau Rose Shower Foam<br>$40.00</td>
+				<td>샤워오일 도손<br>65120</td>
+				<td>샤워폼 오 로즈<br>51920</td>
+				<td>핸드크림 오 로즈<br>46640</td>
 			</tr>
 		</table>
 	</aside>

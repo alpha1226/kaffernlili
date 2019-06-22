@@ -22,14 +22,14 @@
 				<th>STANDARD CANDLES</th>
 			</tr>
 			<tr>
-				<th><a href=""><img src="../image/S1/sc1.png"></th>
-				<th><a href=""><img src="../image/S1/sc2.png"></th>
-				<th><a href=""><img src="../image/S1/sc3.png"></th>
+				<th><a href="P_Detail.jsp?name=미니캔들 바닐라"><img src="../image/S1/sc1.png"></th>
+				<th><a href="P_Detail.jsp?name=미니캔들 베르베인느"><img src="../image/S1/sc2.png"></th>
+				<th><a href="P_Detail.jsp?name=미니캔들 시프레"><img src="../image/S1/sc3.png"></th>
 			</tr>
 			<tr>
-				<td>Pine Tree of Light candle<br>$72.00</td>
-				<td>Amber Balm candle<br>$72.00</td>
-				<td>Exquisite Almond candle<br>$72.00</td>
+				<td>미니캔들 바닐라<br>45760</td>
+				<td>미니캔들 베르베인느<br>45760</td>
+				<td>미니캔들 시프레<br>45760</td>
 			</tr>
 		</table>
 	</aside>

@@ -23,14 +23,12 @@
 				<th>ALL GIFTS</th>
 			</tr>
 			<tr>
-				<th><a href=""><img src="../image/L/aa1.jpg"></th>
-				<th><a href=""><img src="../image/L/aa2.png"></th>
-				<th><a href=""><img src="../image/L/aa3.png"></th>
+				<th><a href="P_Detail.jsp?name=일렉트릭 디퓨저 본체"><img src="../image/L/aa1.jpg"></th>
+				<th><a href="P_Detail.jsp?name=디퓨져 플레르 도랑줴"><img src="../image/L/aa2.png"></th>
 			</tr>
 			<tr>
-				<td>UN AIR DE KAFFERNLILI NOIRE<br>$350.00</td>
-				<td>NEW: Bird Diffuser + Refill<br>$360.00</td>
-				<td>Set of 3 Holiday candles<br>$216.00</td>
+				<td>일렉트릭 디퓨저 본체<br>343200</td>
+				<td>디퓨져 플레르 도랑줴<br>211200</td>
 			</tr>
 		</table>
 	</aside>

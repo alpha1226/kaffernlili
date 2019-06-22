@@ -24,15 +24,15 @@
 			</tr>
 			<tr>
 			<%String item1Name="Eau de Parfum 34"; String item1SRC="../image/B1/bs1.jpg";%>
-			
-				<th><a href="P_Detail.jsp?name=<%=item1Name %>&src=<%=item1SRC%>"><img src="../image/B1/bs1.jpg"></th>
-				<th><a href="P_Detail.jsp?name=PEDP&src=../image/B1/bs2.jpg"><img src="../image/B1/bs2.jpg"></th>
-				<th><a href="P_Detail.jsp?name=DSEDP&src=../image/B1/bs3.jpg"><img src="../image/B1/bs3.jpg"></th>
+		
+				<th><a href="P_Detail.jsp?name=생제르망 34번가 오 드 퍼퓸"><img src="../image/B1/bs1.jpg"></th>
+				<th><a href="P_Detail.jsp?name=오 드 뚜왈렛 필로시코스"><img src="../image/B1/bs2.jpg"></th>
+				<th><a href="P_Detail.jsp?name=오 드 퍼퓸 도손"><img src="../image/B1/bs3.jpg"></th>
 			</tr>
 			<tr>
-				<td>NEW: Eau de Parfum 34, boulevard Saint Germain<br>$190.00</td>
-				<td>Philosykos Eau de Parfum<br>$165.00</td>
-				<td>Do Son Eau de Parfum<br>$165.00</td>
+				<td>생제르망 34번가 오 드 퍼퓸<br>￦218,240</td>
+				<td>오 드 뚜왈렛 필로시코스<br>￦118,800</td>
+				<td>오 드 퍼퓸 도손<br>￦184,800</td>
 			</tr>
 		</table>
 	</aside>

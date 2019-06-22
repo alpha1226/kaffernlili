@@ -22,14 +22,14 @@
 				<th>FACE CARE</th>
 			</tr>
 			<tr>
-				<th><a href=""><img src="../image/F1/fc1.jpg"></th>
-				<th><a href=""><img src="../image/F1/fc2.png"></th>
-				<th><a href=""><img src="../image/F1/fc3.jpg"></th>
+				<th><a href="P_Detail.jsp?name=오 드 뚜왈렛 디스커버리 세트"><img src="../image/F1/fc1.jpg"></th>
+				<th><a href="P_Detail.jsp?name=샤워오일 롬브르 단 로"><img src="../image/F1/fc2.png"></th>
+				<th><a href="P_Detail.jsp?name=센티드오발 피그 트리"><img src="../image/F1/fc3.jpg"></th>
 			</tr>
 			<tr>
-				<td>New: The Art of Face and Body Care Travel Set<br>$85.00</td>
-				<td>Infused Face Oil<br>$70.00</td>
-				<td>Essential Face Cream<br>$75.00</td>
+				<td>오 드 뚜왈렛 디스커버리 세트<br>118800</td>
+				<td>샤워오일 롬브르 단 로<br>65120</td>
+				<td>센티드오발 피그 트리<br>68640</td>
 			</tr>
 		</table>
 	</aside>

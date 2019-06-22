@@ -21,14 +21,14 @@
 				<th>BODY CARE</th>
 			</tr>
 			<tr>
-				<th><a href=""><img src="../image/B2/bb1.jpg"></th>
-				<th><a href=""><img src="../image/B2/bb2.jpg"></th>
-				<th><a href=""><img src="../image/B2/bb3.jpg"></th>
+				<th><a href="P_Detail.jsp?name=딥티크 비누 필로시코스"><img src="../image/B2/bb1.jpg"></th>
+				<th><a href="P_Detail.jsp?name=핸드앤바디로션 오 로즈"><img src="../image/B2/bb2.jpg"></th>
+				<th><a href="P_Detail.jsp?name=벨벳 핸드로션"><img src="../image/B2/bb3.jpg"></th>
 			</tr>
 			<tr>
-				<td>Philosykos Soap<br>$30.00</td>
-				<td>Eau Rose Hand and Body Lotion<br>$55.00</td>
-				<td>Eau Rose Shower Foam<br>$40.00</td>
+				<td>딥티크 비누 필로시코스<br>￦34,320</td>
+				<td>핸드앤바디로션 오 로즈<br>￦70,400</td>
+				<td>벨벳 핸드로션<br>￦47,520</td>
 			</tr>
 		</table>
 	</aside>

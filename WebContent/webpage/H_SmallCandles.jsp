@@ -22,16 +22,16 @@
 				<th>SMALL CANDLES</th>
 			</tr>
 			<tr>
-				<th><a href=""><img src="../image/S/ss1.jpg"></th>
-				<th><a href=""><img src="../image/S/ss2.jpg"></th>
-				<th><a href=""><img src="../image/S/ss3.jpg"></th>
+				<th><a href="P_Detail.jsp?name=캔들 훼이으드라반드"><img src="../image/S/ss1.jpg"></th>
+				<th><a href="P_Detail.jsp?name=캔들 유칼립투스"><img src="../image/S/ss2.jpg"></th>
+				<th><a href="P_Detail.jsp?name=캔들 슈아지아"><img src="../image/S/ss3.jpg"></th>
 			</tr>
 			<tr>
-				<td>Jasmin Small Candle<br>$35.00
+				<td>캔들 훼이으드라반드<br>72160
 				</td>
-				<td>Mimosa Samll Candle<br>$35.00
+				<td>캔들 유칼립투스<br>72160
 				</td>
-				<td>Tubereuse/Tuberose Mini Candle<br>$35.00
+				<td>캔들 슈아지아<br>72160
 				</td>
 			</tr>
 		</table>

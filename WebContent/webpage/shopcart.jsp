@@ -18,6 +18,7 @@
 	ResultSet rs = null;
 	String strsql="";
 	String check="";
+	int index = 0;
 %>
 
 
@@ -27,32 +28,6 @@
 <link type="text/css" rel="stylesheet" href="style.css">
 <title>kaffernlili 공식 사이트</title>
 
-<script>
-$(document).ready(function(){
-		$(".delBtn").live("click", function(){
-		    var clickedRow = $(this).parent().parent();
-		    var cls = clickedRow.attr("class");
-		     
-		    // 각 항목의 첫번째 row를 삭제한 경우 다음 row에 td 하나를 추가해 준다.
-		    if( clickedRow.find("td:eq(0)").attr("rowspan") ){
-		        if( clickedRow.next().hasClass(cls) ){
-		            clickedRow.next().prepend(clickedRow.find("td:eq(0)"));
-		        }
-		    }
-		    
-		    clickedRow.remove();
-		    
-		
-		    // rowspan 조정
-		    resizeRowspan(cls);
-		});
-		
-		function resizeRowspan(cls){
-            var rowspan = $("."+cls).length;
-            $("."+cls+":first td:eq(0)").attr("rowspan", rowspan);
-        }
-});
-</script>
 
 
 
@@ -73,7 +48,7 @@ $(document).ready(function(){
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		conn = DriverManager.getConnection(jdbcUrl, dbId, dbPw);
 
-		String sql = "select * from shopcart where UID=?;";
+		String sql = "select * from shopcart where UID=? and I_Order=0 and I_Delete=0;";
 		pstmt=conn.prepareStatement(sql);
 		System.out.println("insert UID : "+UID);
 		pstmt.setString(1,UID);
@@ -91,7 +66,7 @@ $(document).ready(function(){
 	</header>
 	<%@ include file="menubar.html"%><!-- menubar.html 불러와서 사용(전 페이지 공통) -->
 
-	<form class="cartTable" action ="deleteshopcartItem.jsp">
+	<form class="cartTable" action ="orderItem.jsp">
 		<center>
 			<table border="1" name = "carttbl">
 				<caption>Shopping Cart</caption>
@@ -113,19 +88,26 @@ $(document).ready(function(){
 					System.out.println("P_Num : "+P_num);
 					P_price = rs.getString("I_Price");
 					System.out.println("P_Price : " + P_price);
+					index = rs.getInt("cartintex");
+					System.out.println("index : "+index);
+					
 					%>
 					<tr class="item"+i>
-						<td><input type="checkbox" name="name" value=<%=P_name %>><%=P_name %></td>
+						<td><%=P_name %></td>
 						<td><%=P_price %></td>
 						<td><%=P_num %></td>
 						<td><%=Integer.parseInt(P_price)*Integer.parseInt(P_num) %></td>
+						<td><input type="button" id="" value=<%=index%> onclick=""></td>
 					</tr>
 					<%
 				}
 			%>
 			</table>
-			<input type="button" id="" value="삭제"><input type="submit" id="" value="주문">
+			<input type="button" id="" value="삭제" onclick="alert('장바구니에 있는 상품을 삭제합니다'); location.href='deleteshopcartItem.jsp';"><input type="button" id="" value="주문" onclick="alert('장바구니에 있는 상품을 주문합니다'); location.href='orderItem.jsp';">
 			
+			
+			
+			<!-- alert('Hello world, '+this.value); -->
 			
 		</center>
 	</form>

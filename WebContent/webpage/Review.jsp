@@ -33,7 +33,7 @@
 
 			<table>
 				<tr>
-					<td align="right" colspan="2"><a href="list.jsp"> 글목록</a></td>
+					<td align="right" colspan="2"><a href="ReviewList.jsp"> 글목록</a></td>
 				</tr>
 				<tr>
 					<td width="70" align="center">상품명</td>
@@ -44,12 +44,7 @@
 				<tr>
 					<td width="70" align="center">제 목</td>
 					<td width="330" align="left">
-						<%
-							if (request.getParameter("num") == null)
-									strV = "";
-								else
-									strV = "[답변]";
-						%> <input type="text" size="40" maxlength="50" name="subject"
+						<input type="text" size="40" maxlength="50" name="subject"
 						value="<%=strV%>" style="ime-mode: active;">
 					</td>
 				</tr>
@@ -73,7 +68,7 @@
 				<tr>
 					<td colspan=2 align="center"><input type="submit" value="글쓰기">
 						<input type="reset" value="다시작성"> <input type="button"
-						value="목록보기" OnClick="window.location='list.jsp'"></td>
+						value="목록보기" OnClick="window.location='ReviewList.jsp'"></td>
 				</tr>
 			</table>
 			<%

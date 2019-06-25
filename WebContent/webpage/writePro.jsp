@@ -14,6 +14,8 @@
 	String Email = request.getParameter("email");//이메일
 	String content = request.getParameter("content");
 	String password = request.getParameter("passwd"); // 비밀번호
+	java.text.SimpleDateFormat formatter = new java.text.SimpleDateFormat("yyyy년 MM월 dd일 HH시 mm분 ss초");
+	 String today = formatter.format(new java.util.Date());
 %>
 
 <%
@@ -29,7 +31,7 @@
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		conn = DriverManager.getConnection(jdbcUrl, dbId, dbPw);
 
-		String sql = "insert into reviewtbl(I_Name,UID,Review_title,UEmail,Review_content,password) value(?,?,?,?,?,?);";
+		String sql = "insert into reviewtbl(I_Name,UID,Review_title,UEmail,Review_content,password,Date) value(?,?,?,?,?,?,?);";
 		pstmt = conn.prepareStatement(sql);
 		pstmt.setString(1, P_Name);
 		pstmt.setString(2, UID);
@@ -37,6 +39,7 @@
 		pstmt.setString(4, Email);
 		pstmt.setString(5, content);
 		pstmt.setString(6, password);
+		pstmt.setString(7,today);
 
 		pstmt.executeUpdate();
 

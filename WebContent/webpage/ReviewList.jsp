@@ -16,7 +16,7 @@ String I_Name, UID, reviewTitle, UEmail ,reviewContent,password;
 	PreparedStatement pstmt = null;
 	String str = "";
 	ResultSet rs = null;
-	
+	String date="";
 %>
 
 
@@ -97,15 +97,16 @@ String I_Name, UID, reviewTitle, UEmail ,reviewContent,password;
 					System.out.println("reviewContent : "+reviewContent);
 					password = rs.getString("password");
 					System.out.println("password : "+password);
+					date = rs.getString("Date");
 					
 					%>
 
 
 		<tr height="30">
 			<td width="50"><%=reviewIndex %></td>
-			<td width="250" align="left" border="0" height="16"><%=reviewTitle %></td>
+			<td width="250" align="left" border="0" height="16"><a href="content.jsp?name=<%=reviewIndex%>"><%=reviewTitle %></a></td>
 			<td width="100" align="left"><%=UID %><a href=""> </a></td>
-			<td width="150"></td>
+			<td width="150"><%=date %></td>
 			<td width="50"></td>
 			<td width="100"></td>
 		</tr>

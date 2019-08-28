@@ -9,4 +9,4 @@ JSP, Tomcat, MySQL
   
 팀원1 - html 및 css 수정, 상품 데이터 수집  
 팀원2 - html 및 css 수정, 상품 데이터 수집  
-팀원3(본인) - html로 받은 파일을 JSP로 마이그레이션, DB ERD 작성 후 JSP로 만들어진 홈페이지를 MySQL과 연동하여 동적 홈페이지 기능 구현  
+팀원3(본인) - html로 받은 파일을 JSP로 마이그레이션, DB ERD 작성 후 JSP로 만들어진 홈페이지를 MySQL과 연동하여 동적 홈페이지 기능 구현
